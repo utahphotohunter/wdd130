@@ -2,21 +2,49 @@ nav {
     background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: steelblue;
 }
-img {
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
+    padding: 0;
+}
+
+main {
+    max-width: 850px;
+}
+
+aside {
+    width: 350px;
+    margin: 5px;
+    border: 1px solid black;
     padding: 10px;
+    background-color: #ffac81;
+    color: #15186f;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 2px solid #15186f;
+    text-align: center;
 }
