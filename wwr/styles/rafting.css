@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Skranji&family=Victor+Mono&display=swap');
+
+:root {
+    --primary-color: #f56960;
+    --secondary-color: #f3c178;
+    --accent1-color: #7d4a3b;
+
+    --heading-font: 'Amatic SC', serif;
+    --paragraph-font: 'Victor Mono', sans-serif;
+
+    --nav-background-color: #f3c178;
+    --nav-link-color: #7d4a3b;
+    --nav-hover-link-color: #520160;
+    --nav-hover-background-color: #f3c178;
+    --max-width: 1200px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 15px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
