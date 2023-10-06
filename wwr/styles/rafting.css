@@ -122,6 +122,10 @@ p {
     max-width: 1200px;
 }
 
+.history p {
+    margin-top: 0;
+}
+
 .history img {
     position: relative;
     margin-top: 3rem;
@@ -142,15 +146,34 @@ p {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
     max-width: 1200px;
 }
 
+.adventure h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .adventure img {
-    max-width: 180px;
+    max-width: 175px;
     height: auto;
     display: grid;
     grid-row: 2/3;
-    justify-content: space-around;
+}
+
+.adventure figure {
+    max-width: 175px;
+    height: auto;
+    display: grid;
+    grid-row: 2/3;
+    margin: 0;
+}
+
+.adventure figcaption {
+    display: grid;
+    grid-row: 3/3;
+    text-align: center;
 }
 
 footer {
@@ -164,6 +187,7 @@ footer {
 footer p { 
     margin-right: 4rem;
 }
+
 footer img {
     width: 20px;
     margin-top: 1rem;
