@@ -271,3 +271,110 @@ footer img {
     margin-top: 1rem;
 }
 
+
+/* Home Page */
+
+.image-stories {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.story1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1 fr 2fr;
+    margin: 0 0 2rem 0;
+}
+
+.story1 p {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.story1 img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 200px;
+}
+
+.story1 h3 {
+    display: absolute;;
+    top: 0;
+    margin: 0 0 0 1rem;
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.story2 {
+    position: absolute;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.story2 p {
+    position: absolute;
+    grid-column: 1/2;
+}
+
+.story2 h3 {
+    margin: 0;
+    justify-self: center
+}
+
+.home-action {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subscribe {
+    background-color: #f3c178;
+    border: solid 2px black;
+    border-radius: 8px;
+    max-width: 450px;
+    max-height: 175px;
+    margin-top: 75px;
+}
+
+.subscribe legend {
+    color: black;
+    text-shadow: white 2px;
+}
+
+.subscribe label {
+    display: flex;
+}
+
+.subscribe input {
+    width: 400px;
+}
+
+.subscribe fieldset {
+    margin: 0 auto;
+}
+
+.subscribe button {
+    margin: 0 auto;
+    margin-top: 7px;
+
+}
+
+.action-call {
+    position: relative;
+    text-align: center;
+
+}
+
+.action-call button {
+    margin: 0 auto;
+}
+
+.action-call h3 {
+    font-size: x-large;
+}
