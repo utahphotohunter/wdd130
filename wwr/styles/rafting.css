@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+h1 {
+    color: white;
+}
+
 p {
     padding: 15px;
 }
@@ -108,7 +112,7 @@ p {
     top: 0;
     font-size:3rem;
     text-shadow: 0 0 4px #00000090;
-    background-color: #ffffff99;
+    background-color: #7d4a3b90;
 }
 
 .hero article img {
@@ -375,4 +379,71 @@ footer img {
 
 .action-call h3 {
     font-size: x-large;
+}
+
+.trips {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trip-lorem {
+    text-align: center;
+    margin: 20px;
+}
+
+.trip-lorem h3 {
+    font-size: x-large;
+}
+
+.table-contact {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+}
+
+.trip-table {
+    position: absolute;
+    grid-row: 1/2;
+    display: flex;
+    align-self: center;
+}
+
+.trips-action-call {
+    position: absolute;
+    grid-row: 2/3;
+    align-self: center;
+    border: black solid 1px;
+    background-color: #f3c178;
+    text-align: center;
+    
+}
+
+.trips-action-call h2 {
+    color: white;
+    background-color: #7d4a3b95;
+    text-shadow: 0 0 1px black;
+    font-size: xxx-large;
+}
+
+.trips-action-call button {
+    margin: 12px auto;
+}
+
+table, td {
+    border: #7d4a3b solid 1px;
+    color: #7d4a3b;
+    text-shadow: 0 0 2px white;
+    background-color: #f3c178;
+    text-align: center;
+    padding: 2px 5px;
+}
+
+table {
+    margin: 10px;
+    color: white;
+    background-color: #7d4a3b;
+    text-shadow: 0 0 0 white;
+    height: 300px;
 }
