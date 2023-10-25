@@ -285,7 +285,7 @@ footer img {
     grid-column: 1/4;
     grid-row: 1/2;
     display: grid;
-    grid-template-columns: 1 fr 2fr;
+    grid-template-columns: 1fr 2fr;
     margin: 0 0 2rem 0;
 }
 
@@ -301,7 +301,6 @@ footer img {
 }
 
 .story1 h3 {
-    display: absolute;;
     top: 0;
     margin: 0 0 0 1rem;
     justify-self: center;
@@ -344,7 +343,6 @@ footer img {
 
 .subscribe legend {
     color: black;
-    text-shadow: white 2px;
 }
 
 .subscribe label {
